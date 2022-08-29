@@ -15,21 +15,14 @@ const movies = [
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </header>
-
       <div>
         <h2>Movies</h2>
-        {movies.map(movie => (
-          <h3>{movie.name}</h3>
+        {movies.map((movie) => (
+          <form>
+            <h3>{movie.name}</h3>
+            <button> - </button>
+            <button> + </button>
+          </form>
         ))}
       </div>
     </div>
