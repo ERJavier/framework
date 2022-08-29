@@ -28,7 +28,9 @@ function App() {
 
       <div>
         <h2>Movies</h2>
-
+        {movies.map(movie => (
+          <h3>{movie.name}</h3>
+        ))}
       </div>
     </div>
   );
