@@ -4,11 +4,11 @@ import Form  from './from';
 const movies = [
   {
   name: 'nope',
-  aviable: 5,
+  available: 5,
   },
   {
     name: 'GOT',
-    aviable: 2,
+    available: 2,
   },
 
 ];
