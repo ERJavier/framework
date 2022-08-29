@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Form  from './from';
 const movies = [
   {
   name: 'nope',
@@ -18,12 +19,7 @@ function App() {
       <div>
         <h2>Movies</h2>
         {movies.map((movie) => (
-          <form>
-            <h3>{movie.name}</h3>
-            <button> - </button>
-            0
-            <button> + </button>
-          </form>
+          <Form movie = {movie} />
         ))}
       </div>
     </div>
